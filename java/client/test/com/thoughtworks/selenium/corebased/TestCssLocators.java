@@ -150,7 +150,7 @@ public class TestCssLocators extends InternalSelenseTestBase {
     }
 
     if (isCapableOfAdvancedSelectors(selenium, isIe)) {
-      // Versions of firefox prior to 3.5 don't propogate the lang property.
+      // Versions of firefox prior to 3.5 don't propagate the lang property.
       verifyEquals(selenium.getText("css=a:lang(en)"), "this is the first element");
 
       verifyEquals(selenium.getText("css=#linkPseudoTest :link"), "link pseudo test");

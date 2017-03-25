@@ -428,7 +428,7 @@ class RemoteConnection(object):
         """
         Send a command to the remote server.
 
-        Any path subtitutions required for the URL mapped to the command should be
+        Any path substitutions required for the URL mapped to the command should be
         included in the command parameters.
 
         :Args:

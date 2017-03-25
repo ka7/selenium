@@ -305,7 +305,7 @@ v2.46.0
    Finally, this commit also introduces a breaking change in
    IElementLocatorFactory. Developers of classes that implement this
    interface will now be required to implement the CreateLocator method,
-   which will return a valid IElementLocator implmentation. This is to
+   which will return a valid IElementLocator implementation. This is to
    prepare for the removal of the IElementLocatorFactory interface and its
    implmentations in a future release.
  * Added FindsByAllAttribute to .NET PageFactory implementation. This allows
@@ -329,7 +329,7 @@ v2.46.0
    allows projects that use a WebDriver-like JSON-over-HTTP wire protocol to
    add additional end points for their use. It does this by exposing (and
    renaming) a formerly internal method on the singleton CommandInfoRepository
-   class. To add additonal commands, one would call the TryAddCommand method,
+   class. To add additional commands, one would call the TryAddCommand method,
    which is now public. Fixes Google Code issue #8594.
  * Added ability to handle W3C spec compliant element serialization.
  * (on behalf of Eberhard Beilharz) Made PhantomJS driver more cross-platform
@@ -345,7 +345,7 @@ v2.45.0
  * Supports native events for Firefox versions 31 (current ESR), and
    24 (immediately previous ESR). Native event support has been discontinued
    for versions of Firefox later than 33.
- * Removed automatic installation of SafariDriver extention for .NET.
+ * Removed automatic installation of SafariDriver extension for .NET.
    From this point forward, users are expected to manually install the
    SafariDriver extension into their Safari installation in order to drive
    the browser. This is due to Apple's changes in architecture for Safari
@@ -499,7 +499,7 @@ v2.40.0
  * Modified to allow user to specify name of driver service executable in .NET.
    We now give an overload to CreateDefaultService for ChromeDriverService,
    PhantomJSDriverService, and InternetExplorerDriverService to allow the
-   user to specify the name of the service exectuable. This is particularly
+   user to specify the name of the service executable. This is particularly
    useful for non-Windows platforms where the executable does not end with
    '.exe'. It also allows the user to rename the executable to a name of
    their choosing and still be able to use it from the .NET bindings.
@@ -612,7 +612,7 @@ v2.34.0
    false.
  * Added type-safe Proxy property to .NET InternetExplorerOptions class. Also
    added support for the ie.usePerProcessProxy capability via the
-   UsePerProcessProxy propery.
+   UsePerProcessProxy property.
  * Issue #5999: Rearranged command line generated for PhantomJS. This
    rearranges the order of arguments so that PhantomJS command line arguments
    appear before the GhostScript main.js file (if any).
@@ -721,7 +721,7 @@ v2.30.0
    attempt to help diagnose the root cause of issue #3719. Please note that it
    makes no effort whatsoever to "fix" the issue. This is simply hoping to 
    provide more information for those who have run into that issue, and see if
-   all occurrances have the same root cause.
+   all occurrences have the same root cause.
  * Only adding environment variables for Firefox process if they do not already
    exist.
  * Properly passing requireWindowFocus capability when set in .NET bindings.
@@ -818,7 +818,7 @@ v2.26.0
    DriverServiceCommandExecutor.
  * Shortcut trying to convert element to ILocatable if an Action in the .NET
    bindings is called specifically with a null value for element.
- * Added the LibraryExtractionPath propery to InternetExplorerDriverService to
+ * Added the LibraryExtractionPath property to InternetExplorerDriverService to
    be able to set the location to which the support library of the
    IEDriverServer.exe is extracted. 
  * Implementing SuppressInitialDiagnosticInformation property on DriverService

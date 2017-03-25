@@ -33,7 +33,7 @@ import org.openqa.selenium.net.PortProber;
 import org.openqa.selenium.remote.server.SeleniumServer;
 
 /**
- * by specifing a RegistrationRequest.REGISTER_CYCLE= -1 , the node to not try to register against
+ * by specifying a RegistrationRequest.REGISTER_CYCLE= -1 , the node to not try to register against
  * the hub all the time. For such a node, if the hub crash, the node won't reconnect after the hub
  * is restarted.
  *

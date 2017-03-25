@@ -76,7 +76,7 @@ public class SafariOptions {
   private boolean useTechnologyPreview = false;
 
   /**
-   * Construct a {@link SafariOptions} instance from given capabilites.
+   * Construct a {@link SafariOptions} instance from given capabilities.
    * When the {@link #CAPABILITY} capability is set, all other capabilities will be ignored!
    *
    * @param capabilities Desired capabilities from which the options are derived.

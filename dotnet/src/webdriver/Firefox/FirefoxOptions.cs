@@ -133,7 +133,7 @@ namespace OpenQA.Selenium.Firefox
         /// Adds an argument to be used in launching the Firefox browser.
         /// </summary>
         /// <param name="argumentName">The argument to add.</param>
-        /// <remarks>Arguments must be preceeded by two dashes ("--").</remarks>
+        /// <remarks>Arguments must be preceded by two dashes ("--").</remarks>
         public void AddArgument(string argumentName)
         {
             if (string.IsNullOrEmpty(argumentName))
@@ -148,7 +148,7 @@ namespace OpenQA.Selenium.Firefox
         /// Adds a list arguments to be used in launching the Firefox browser.
         /// </summary>
         /// <param name="argumentsToAdd">An array of arguments to add.</param>
-        /// <remarks>Each argument must be preceeded by two dashes ("--").</remarks>
+        /// <remarks>Each argument must be preceded by two dashes ("--").</remarks>
         public void AddArguments(params string[] argumentsToAdd)
         {
             this.AddArguments(new List<string>(argumentsToAdd));
@@ -158,7 +158,7 @@ namespace OpenQA.Selenium.Firefox
         /// Adds a list arguments to be used in launching the Firefox browser.
         /// </summary>
         /// <param name="argumentsToAdd">An array of arguments to add.</param>
-        /// <remarks>Each argument must be preceeded by two dashes ("--").</remarks>
+        /// <remarks>Each argument must be preceded by two dashes ("--").</remarks>
         public void AddArguments(IEnumerable<string> argumentsToAdd)
         {
             if (argumentsToAdd == null)

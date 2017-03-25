@@ -259,7 +259,7 @@ objectExtend(CommandHandlerFactory.prototype, {
         this.registerAction("waitFor" + baseName, waitForActionBlock, false, true);
         this.registerAction("waitFor" + this._invertPredicateName(baseName), waitForNotActionBlock, false, true);
         //TODO decide remove "waitForNot.*Present" action name or not
-        //for the back compatiblity issues we still make waitForNot.*Present availble
+        //for the back compatibility issues we still make waitForNot.*Present available
         this.registerAction("waitForNot" + baseName, waitForNotActionBlock, false, true);
     },
 
@@ -293,7 +293,7 @@ function CommandHandler(type, haltOnFailure) {
     this.haltOnFailure = haltOnFailure;
 }
 
-// An ActionHandler is a command handler that executes the sepcified action,
+// An ActionHandler is a command handler that executes the specified action,
 // possibly checking for alerts and confirmations (if checkAlerts is set), and
 // possibly waiting for a page load if wait is set.
 function ActionHandler(actionBlock, wait, dontCheckAlerts) {

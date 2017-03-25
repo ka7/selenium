@@ -283,7 +283,7 @@ objectExtend(IDETestLoop.prototype, {
     if (this.handler && this.handler.testComplete) this.handler.testComplete(failed);
   },
 
-  // overide _executeCurrentCommand so we can collect stats of the commands executed
+  // override _executeCurrentCommand so we can collect stats of the commands executed
   _executeCurrentCommand : function() {
     /**
      * Execute the current command.

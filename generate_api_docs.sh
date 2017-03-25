@@ -29,7 +29,7 @@ case "$changes" in
   *) exit;;
 esac
 
-echo "Commiting changes"
+echo "Committing changes"
 git commit -am "updating javadoc and py docs"
 
 echo "pushing to origin gh-pages"

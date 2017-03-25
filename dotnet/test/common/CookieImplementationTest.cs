@@ -793,7 +793,7 @@ namespace OpenQA.Selenium
         {
             // TODO(JimEvan): Some coverage is better than none, so we
             // need to ignore the fact that localhost cookies are problematic.
-            // Reenable this when we have a better solution per DanielWagnerHall.
+            // Re-enable this when we have a better solution per DanielWagnerHall.
             // ChromeDriver2 has trouble with localhost. IE and Firefox don't.
             // return !IsIpv4Address(hostname) && "localhost" != hostname;
             bool isLocalHostOkay = true;

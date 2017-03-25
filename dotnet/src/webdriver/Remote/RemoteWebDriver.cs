@@ -185,21 +185,21 @@ namespace OpenQA.Selenium.Remote
                 }
                 catch (WebDriverException)
                 {
-                    // Catch the exeception, if any. This is consistent with other
-                    // drivers, in that no exeception is thrown when going to an
+                    // Catch the exception, if any. This is consistent with other
+                    // drivers, in that no exception is thrown when going to an
                     // invalid URL.
                 }
                 catch (InvalidOperationException)
                 {
-                    // Catch the exeception, if any. This is consistent with other
-                    // drivers, in that no exeception is thrown when going to an
+                    // Catch the exception, if any. This is consistent with other
+                    // drivers, in that no exception is thrown when going to an
                     // invalid URL.
                 }
                 catch (NotImplementedException)
                 {
                     // Chrome throws NotImplementedException if the URL is invalid.
-                    // Catch the exeception, if any. This is consistent with other
-                    // drivers, in that no exeception is thrown when going to an
+                    // Catch the exception, if any. This is consistent with other
+                    // drivers, in that no exception is thrown when going to an
                     // invalid URL.
                 }
             }

@@ -312,7 +312,7 @@ WebDriver:
     * Add innerHTML attribute support to HtmlUnitDriver
     * Add textContent attribute support to HtmlUnitDriver
     * make RemoteMouse public, akin to RemoteKeyboard. Not sure why it wasn't made public when it was originally moved out of RWD.
-    * Use platform-dependant line separator instead of hardcoded '\n'.
+    * Use platform-dependent line separator instead of hardcoded '\n'.
     * Safari should only specify MAC as platform in default desired capabilities
     * improve javadoc for FluentWait
     * Changing interface name to be more Java-ish
@@ -448,7 +448,7 @@ Grid:
 v2.47.0
 =======
 
-** Java 7 is now requried, but you really should be on 8, since 7 is EOL **
+** Java 7 is now required, but you really should be on 8, since 7 is EOL **
 
 
 WebDriver:
@@ -902,7 +902,7 @@ WebDriver:
    This feature will be used by mobile WebDriver users to switch
    between different contexts like the native or the webview UI element
    tree. The feature is end to end tested with latest Selendroid
-   snapshot version (6a126ab). In the langauge bindings, this is
+   snapshot version (6a126ab). In the language bindings, this is
    implemented as a role-based interface. Subclasses of RemoteWEbDriver
    that need this should extend TargetLocator and use covariant return
    types to keep everything happy and sweet.
@@ -1346,7 +1346,7 @@ v2.32.0
 =======
 
 WebDriver:
-  This release supports Firefox verions: 10esr, 17esr, 19, 20
+  This release supports Firefox versions: 10esr, 17esr, 19, 20
 
   * Let WindowsUtils.killPID() kill the whole process tree
   * Implementing support for implicit "submit" button type in
@@ -1430,7 +1430,7 @@ WebDriver:
     interactions. Note that this will mean you MUST NOT use the
     machine running IE for anything else as the tests are running.
   * Use the "webdriver.remote.shorten_log_messages" system property to
-    reduce the verboseness of ouput from executeScript and
+    reduce the verboseness of output from executeScript and
     executeAsyncScript when using the RemoteWebDriver.
   * Switching HtmlUnitDriver default from FIREFOX_3_6 to FIREFOX_10
   * SafariDriverExtension should restore Safari's previous settings on

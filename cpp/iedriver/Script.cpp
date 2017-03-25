@@ -407,7 +407,7 @@ int Script::ExecuteAsync(int timeout_in_milliseconds) {
     // is only used for Automation Atoms on an element which could cause an
     // alert to appear (e.g., clear, click, or submit), and do not return any
     // return values back to the caller. In this case, the return code of the
-    // execution method is sufficent. Marshaling the return will require two
+    // execution method is sufficient. Marshaling the return will require two
     // more messages, one for determining the variant type of the return value,
     // and another for actually retrieving that value from the worker window's
     // thread.

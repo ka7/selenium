@@ -39,7 +39,7 @@ We are however phasing out this documentation which focuses too much
 on Selenium RC and other antiquated pieces, in favour of a rewrite.
 
 The new documentation is a project started to rewrite Selenium's
-documentation from scratch. This is an ongoing effort (not targetted
+documentation from scratch. This is an ongoing effort (not targeted
 at any specific release) to provide an updated handbook on how to use
 Selenium effectively. We hope to bring over the pieces of the old
 documentation that makes sense.

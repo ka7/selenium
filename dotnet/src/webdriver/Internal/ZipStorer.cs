@@ -707,7 +707,7 @@ namespace System.IO.Compression
                         this.zipFileStream.Seek(centralDirOffset, SeekOrigin.Begin);
                         this.zipFileStream.Read(this.centralDirectoryImage, 0, centralSize);
 
-                        // Leave the pointer at the begining of central dir, to append new files
+                        // Leave the pointer at the beginning of central dir, to append new files
                         this.zipFileStream.Seek(centralDirOffset, SeekOrigin.Begin);
                         return true;
                     }
@@ -759,7 +759,7 @@ namespace System.IO.Compression
             /// <summary>True if UTF8 encoding for filename and comments, false if default (CP 437)</summary>
             public bool EncodeUTF8;
 
-            /// <summary>Overriden method</summary>
+            /// <summary>Overridden method</summary>
             /// <returns>Filename in Zip</returns>
             public override string ToString()
             {

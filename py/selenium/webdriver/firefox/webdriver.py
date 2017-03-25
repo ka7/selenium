@@ -79,7 +79,7 @@ class WebDriver(RemoteWebDriver):
         In this case that would be `firefox_profile`.  This will result in
         `firefox_options.profile` to be ignored because it is considered
         a less specific setting than the top-level `firefox_profile`
-        keyword argument.  Similarily, if you had specified a
+        keyword argument.  Similarly, if you had specified a
         `capabilities["firefoxOptions"]["profile"]` Base64 string,
         this would rank below `firefox_options.profile`.
 

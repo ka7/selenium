@@ -42,7 +42,7 @@ public interface WebElement extends SearchContext, TakesScreenshot {
    *
    * There are some preconditions for an element to be clicked. The
    * element must be visible and it must have a height and width
-   * greater then 0.
+   * greater than 0.
    *
    * @throws StaleElementReferenceException If the element no
    *     longer exists as initially defined

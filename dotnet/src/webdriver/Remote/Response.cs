@@ -24,7 +24,7 @@ using Newtonsoft.Json;
 namespace OpenQA.Selenium.Remote
 {
     /// <summary>
-    /// Handles reponses from the browser
+    /// Handles responses from the browser
     /// </summary>
     public class Response
     {

@@ -367,7 +367,7 @@ v2.46.0.2
 
 v2.46.0.1
 =========
- * Handles issue with alert text controls conatining no accText property in IE.
+ * Handles issue with alert text controls containing no accText property in IE.
    Fixes issue #651.
 
 v2.46.0.0
@@ -453,7 +453,7 @@ v2.44.0.2
 =========
  * Updates to JavaScript automation atoms.
  * Added additional logging to cache clearing code
- * Updated session intialization to more robustly handle malformed JSON.
+ * Updated session initialization to more robustly handle malformed JSON.
    Previously, in the IE driver, malformed JSON requests when requesting a
    new session would cause the driver to crash. The new behavior is that
    if the JSON payload for the new session is malformed by not including
@@ -775,7 +775,7 @@ v2.33.0.9
 =========
  * Added error checking in DocumentHost::GetPageSource. Fixes issue #5967.
  * Removed StringUtilities methods to create strings from longs. The C++
-   standard type libary already provides std::to_string() and std::to_wstring()
+   standard type library already provides std::to_string() and std::to_wstring()
    for this purpose.
  * Introduced ability to clean browser cache before launching IE. This version
    introduces the ie.ensureCleanSession capability, which will clear the
@@ -1123,7 +1123,7 @@ v2.30.0.0
  * Updates to JavaScript automation atoms.
  * Fixed incorrect JSON return values for findElements when an error occurs.
    This is a "best-faith" effort at resolving reports of NullPointerExceptions
-   in Java. If future occurrances of the symptoms are found, please open a new
+   in Java. If future occurrences of the symptoms are found, please open a new
    issue. Fixes issue #3800.
 
 v2.29.1.2

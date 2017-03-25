@@ -63,7 +63,7 @@ public class WebDriverRequest extends SeleniumBasedRequest {
     String json = getBody();
     try {
       JsonObject map = new JsonParser().parse(json).getAsJsonObject();
-      // Current W3C has required / desired capabilities wrapped in a 'capabilites' object.
+      // Current W3C has required / desired capabilities wrapped in a 'capabilities' object.
       // This will need to be updated if/when https://github.com/w3c/webdriver/pull/327 gets merged
       if (map.has("capabilities")) {
         return new JsonToBeanConverter().convert(Map.class, map.getAsJsonObject("capabilities").getAsJsonObject("desiredCapabilities"));

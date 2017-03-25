@@ -1775,7 +1775,7 @@ if (navigator.appVersion.match(/\bMSIE\b/))
   Event.observe(window, 'unload', Event.unloadCache, false);
 var Position = {
   // set to true if needed, warning: firefox performance problems
-  // NOT neeeded for page scrolling, only if draggable contained in
+  // NOT needed for page scrolling, only if draggable contained in
   // scrollable elements
   includeScrollOffsets: false,
 

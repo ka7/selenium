@@ -44,7 +44,7 @@ module Selenium
           end
 
           it 'gets the app cache entries' do
-            # dependant on spec above?!
+            # dependent on spec above?!
 
             driver.get url_for('html5Page')
 

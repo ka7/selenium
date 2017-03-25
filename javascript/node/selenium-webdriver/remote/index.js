@@ -410,7 +410,7 @@ DriverService.Builder = class {
   /**
    * Defines the environment to start the server under. This setting will be
    * inherited by every browser session started by the server. By default, the
-   * server will inherit the enviroment of the current process.
+   * server will inherit the environment of the current process.
    *
    * @param {(Map<string, string>|Object<string, string>|null)} env The desired
    *     environment to use, or `null` if the server should inherit the
@@ -550,7 +550,7 @@ SeleniumServer.Options;
  * When a file path on the local machine running this script is entered with
  * {@link webdriver.WebElement#sendKeys WebElement#sendKeys}, this file detector
  * will transfer the specified file to the Selenium server's host; the sendKeys
- * command will be updated to use the transfered file's path.
+ * command will be updated to use the transferred file's path.
  *
  * __Note:__ This class depends on a non-standard command supported on the
  * Java Selenium server. The file detector will fail if used with a server that

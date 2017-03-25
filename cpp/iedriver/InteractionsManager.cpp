@@ -41,7 +41,7 @@ class EventFiringData
   void pauseFiring() { m_shouldFire = false; }
   void resumeFiring() { m_shouldFire = true; }
   bool shouldFire() { return m_shouldFire; }
-  // Used to control the existance of the background thread:
+  // Used to control the existence of the background thread:
   // when shouldRun returns false the thread will exit.
   void stopRunning() { m_keepRunning = false; }
   bool shouldRun() { return m_keepRunning; }
@@ -188,7 +188,7 @@ void InteractionsManager::backgroundKeyDown(HWND hwnd, HKL layout, BYTE keyboard
   WORD keyCode, UINT scanCode, bool extended, int pause)
 {
   // For capital letters and symbols requiring the shift key to be pressed,
-  // A Shift key press must preceed. Unless the shift key is pressed - if
+  // A Shift key press must preced. Unless the shift key is pressed - if
   // shiftPressed is true, then a shift key-down was sent in the past.
   sendModifierKeyDownIfNeeded(isShiftPressNeeded(keyCode) && (!shiftPressed), hwnd, layout,
     VK_SHIFT, keyboardState, pause);

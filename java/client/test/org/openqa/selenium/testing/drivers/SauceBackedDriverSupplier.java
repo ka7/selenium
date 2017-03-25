@@ -60,7 +60,7 @@ public class SauceBackedDriverSupplier implements Supplier<WebDriver> {
       }
     }
 
-    // Fallback, all atempts were unsuccessfull
+    // Fallback, all atempts were unsuccessful
     throw lastException;
   }
 }

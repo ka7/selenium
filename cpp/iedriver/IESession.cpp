@@ -50,7 +50,7 @@ void IESession::Initialize(void* init_params) {
       LOG(WARN) << "Could not acquire mutex within the timeout. Multiple "
                 << "instances may hang or behave unpredictably";
     } else if (mutex_wait_status == WAIT_OBJECT_0) {
-      LOG(DEBUG) << "Mutex acquired for session initalization";
+      LOG(DEBUG) << "Mutex acquired for session initialization";
     } else if (mutex_wait_status == WAIT_FAILED) {
       LOGERR(WARN) << "Mutex acquire waiting is failed";
     }
@@ -100,7 +100,7 @@ void IESession::Initialize(void* init_params) {
     std::vector<wchar_t> window_text_buffer(37);
     ::GetWindowText(thread_context.hwnd, &window_text_buffer[0], 37);
     session_id = StringUtilities::ToString(&window_text_buffer[0]);
-    LOG(TRACE) << "Session id is retrived from command executor window: '" << session_id << "'";
+    LOG(TRACE) << "Session id is retrieved from command executor window: '" << session_id << "'";
   } else {
     LOG(DEBUG) << "Created thread does not return HWND of created session";
   }

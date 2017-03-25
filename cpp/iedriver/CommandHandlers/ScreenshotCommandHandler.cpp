@@ -151,7 +151,7 @@ namespace webdriver {
     LOG(DEBUG) << "Initial browser window sizes are (w, h): "
                << original_width << ", " << original_height;
 
-    // If the window is already wide enough to accomodate
+    // If the window is already wide enough to accommodate
     // the document, don't resize that dimension. Otherwise,
     // the window will display a horizontal scroll bar, and
     // we need to retain the scrollbar to avoid rerendering
@@ -163,7 +163,7 @@ namespace webdriver {
       target_window_width -= 2;
     }
 
-    // If the window is already tall enough to accomodate
+    // If the window is already tall enough to accommodate
     // the document, don't resize that dimension. Otherwise,
     // the window will display a vertical scroll bar, and
     // we need to retain the scrollbar to avoid rerendering
@@ -283,7 +283,7 @@ namespace webdriver {
     CComPtr<IStream> stream;
     HRESULT hr = ::CreateStreamOnHGlobal(NULL, TRUE, &stream);
     if (FAILED(hr)) {
-      LOGHR(WARN, hr) << "Error is occured during creating IStream";
+      LOGHR(WARN, hr) << "Error is occurred during creating IStream";
       return hr;
     }
 

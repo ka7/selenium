@@ -439,7 +439,7 @@ int InputManager::MouseMoveTo(BrowserHandle browser_wrapper, std::string element
       // We can't use the status code alone here. Even though the center of the
       // element may not reachable via the mouse, we might still be able to move
       // to whatever portion of the element *is* visible in the viewport, especially
-      // if we have an offset specifed, so we have to have an extra check.
+      // if we have an offset specified, so we have to have an extra check.
       if (status_code != WD_SUCCESS) {
         if (status_code == EELEMENTCLICKPOINTNOTSCROLLED && !offset_specified) {
           // If no offset is specified (meaning "move to the element's center"),

@@ -47,7 +47,7 @@ namespace Selenium.Internal.SeleniumEmulation
         {
             IWebElement element = this.finder.FindElement(driver, locator);
 
-            // Special-case handling for checkboxes: The Selenium API returs "on" for
+            // Special-case handling for checkboxes: The Selenium API returns "on" for
             // checked checkboxes and off for unchecked ones. WebDriver will return "null" for
             // the "checked" attribute if the checkbox is not-checked, "true" otherwise.
             if (element.TagName == "input" && element.GetAttribute("type") == "checkbox")

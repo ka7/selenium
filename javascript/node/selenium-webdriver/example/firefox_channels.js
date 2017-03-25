@@ -68,6 +68,6 @@ Promise.all([
 ]).then(_ => {
   console.log('Success!');
 }, err => {
-  console.error('An error occured! ' + err);
+  console.error('An error occurred! ' + err);
   setTimeout(() => {throw err}, 0);
 });

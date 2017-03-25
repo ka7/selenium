@@ -14,7 +14,7 @@ namespace OpenQA.Selenium.Interactions
         [IgnoreBrowser(Browser.HtmlUnit)]
         [IgnoreBrowser(Browser.Android, "Mobile browser does not support drag-and-drop")]
         [IgnoreBrowser(Browser.IPhone, "Mobile browser does not support drag-and-drop")]
-        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implmented on Safari")]
+        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implemented on Safari")]
         public void DragAndDropRelative()
         {
             driver.Url = dragAndDropPage;
@@ -34,7 +34,7 @@ namespace OpenQA.Selenium.Interactions
         [IgnoreBrowser(Browser.HtmlUnit)]
         [IgnoreBrowser(Browser.Android, "Mobile browser does not support drag-and-drop")]
         [IgnoreBrowser(Browser.IPhone, "Mobile browser does not support drag-and-drop")]
-        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implmented on Safari")]
+        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implemented on Safari")]
         public void DragAndDropToElement()
         {
             driver.Url = dragAndDropPage;
@@ -113,7 +113,7 @@ namespace OpenQA.Selenium.Interactions
         [IgnoreBrowser(Browser.HtmlUnit)]
         [IgnoreBrowser(Browser.Android, "Mobile browser does not support drag-and-drop")]
         [IgnoreBrowser(Browser.IPhone, "Mobile browser does not support drag-and-drop")]
-        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implmented on Safari")]
+        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implemented on Safari")]
         public void ElementInDiv()
         {
             driver.Url = dragAndDropPage;
@@ -132,7 +132,7 @@ namespace OpenQA.Selenium.Interactions
         [IgnoreBrowser(Browser.HtmlUnit)]
         [IgnoreBrowser(Browser.Android, "Mobile browser does not support drag-and-drop")]
         [IgnoreBrowser(Browser.IPhone, "Mobile browser does not support drag-and-drop")]
-        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implmented on Safari")]
+        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implemented on Safari")]
         public void DragTooFar()
         {
             driver.Url = dragAndDropPage;
@@ -162,7 +162,7 @@ namespace OpenQA.Selenium.Interactions
         [IgnoreBrowser(Browser.Android, "Mobile browser does not support drag-and-drop")]
         [IgnoreBrowser(Browser.IPhone, "Mobile browser does not support drag-and-drop")]
         [IgnoreBrowser(Browser.Firefox, "Problem with drag off viewport. See issue #1771")]
-        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implmented on Safari")]
+        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implemented on Safari")]
         public void ShouldAllowUsersToDragAndDropToElementsOffTheCurrentViewPort()
         {
             driver.Url = dragAndDropPage;
@@ -202,7 +202,7 @@ namespace OpenQA.Selenium.Interactions
         [IgnoreBrowser(Browser.HtmlUnit)]
         [IgnoreBrowser(Browser.Android, "Mobile browser does not support drag-and-drop")]
         [IgnoreBrowser(Browser.IPhone, "Mobile browser does not support drag-and-drop")]
-        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implmented on Safari")]
+        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implemented on Safari")]
         public void DragAndDropOnJQueryItems()
         {
             driver.Url = droppableItems;
@@ -243,7 +243,7 @@ namespace OpenQA.Selenium.Interactions
         [IgnoreBrowser(Browser.HtmlUnit)]
         [IgnoreBrowser(Browser.Opera, "Untested")]
         [IgnoreBrowser(Browser.PhantomJS, "Untested")]
-        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implmented on Safari")]
+        [IgnoreBrowser(Browser.Safari, "Advanced User Interactions not implemented on Safari")]
         public void CanDragAnElementNotVisibleInTheCurrentViewportDueToAParentOverflow()
         {
             driver.Url = dragDropOverflowPage;

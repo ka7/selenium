@@ -4,7 +4,7 @@
 //
 // Miscellaneous utility and placeholder functions.
 
-// Dummy implmentation for the logging functions. Replace by something
+// Dummy implementation for the logging functions. Replace by something
 // useful when you want to debug.
 function xpathLog(msg) {};
 function xsltLog(msg) {};
@@ -355,7 +355,7 @@ function xmlFullNodeName(n) {
   }
 }
 
-// Escape XML special markup chracters: tag delimiter < > and entity
+// Escape XML special markup characters: tag delimiter < > and entity
 // reference start delimiter &. The escaped string can be used in XML
 // text portions (i.e. between tags).
 function xmlEscapeText(s) {

@@ -74,7 +74,7 @@ Selenium 2.53.0
 * Adding Options object for use with Python FirefoxDriver
 * Fixed improper usage of super in exceptions module
 * create a temp file for cookies in phantomjs if not specified
-* Pass in the executable that FirefoxBinary finds to the service if there isnt one passed in as a kwarg or capability
+* Pass in the executable that FirefoxBinary finds to the service if there isn't one passed in as a kwarg or capability
 * Applied some DRY and extracted out the keys_to_typing()
 * Fix deselecting options in <select>
 
@@ -394,12 +394,12 @@ Selenium 2.14
 * A fix for Error Handling
 
 Selenium 2.13
-* Fixed switch_to_window so that it didnt crash Firefox Bug 2633
+* Fixed switch_to_window so that it didn't crash Firefox Bug 2633
 * Fixed Screenshot handling to work in all browsers. Bug 2829
 * Force Firefox to the Foreground
 
 Selenium 2.12
-* Added Select as a support pacakge
+* Added Select as a support package
 * Added Beta window size / position api's
 * Bug Fixes
 

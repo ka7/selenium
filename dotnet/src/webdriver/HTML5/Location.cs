@@ -67,7 +67,7 @@ namespace OpenQA.Selenium.Html5
         }
 
         /// <summary>
-        /// Retuns string represenation for current location.
+        /// Returns string represenation for current location.
         /// </summary>
         /// <returns>Returns <see cref="string">string</see> reprsentation for current location.</returns>
         public override string ToString()
